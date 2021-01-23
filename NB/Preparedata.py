@@ -47,3 +47,6 @@ for filename in os.listdir(input):
     infile.close()
 
 print ("一共有"+str(len(WordList)) +"个词语读取成功")
+
+trainOutFile.close()
+testOutFile.close()
